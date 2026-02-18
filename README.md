@@ -20,6 +20,8 @@ JSON in Java [package org.json]
 
 The JSON-Java package is a reference implementation that demonstrates how to parse JSON documents into Java objects and how to generate new JSON documents from the Java classes.
 
+The files in this package implement JSON encoders and decoders. The package can also convert between JSON and XML, HTTP headers, Cookies, and CDL.
+
 Project goals include:
 * Reliable and consistent results
 * Adherence to the JSON specification 
@@ -29,8 +31,16 @@ Project goals include:
 * Maintain backward compatibility
 * Designed and tested to use on Java versions 1.6 - 25
 
+# License Clarification
+This project is in the public domain. This means:
+* You can use this code for any purpose, including commercial projects
+* No attribution or credit is required
+* You can modify, distribute, and sublicense freely
+* There are no conditions or restrictions whatsoever
 
-The files in this package implement JSON encoders and decoders. The package can also convert between JSON and XML, HTTP headers, Cookies, and CDL.
+We recognize this can create uncertainty for some corporate legal departments accustomed to standard licenses like MIT or Apache 2.0.
+If your organization requires a named license for compliance purposes, public domain is functionally equivalent to the Unlicense or CC0 1.0, both of which have been reviewed and accepted by organizations including the Open Source Initiative and Creative Commons. You may reference either when explaining this project's terms to your legal team.
+
 
 # If you would like to contribute to this project
 
